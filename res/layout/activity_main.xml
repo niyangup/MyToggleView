@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:niyang="http://schemas.android.com/apk/res/com.example.mytoggleview"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mytoggleview.MainActivity" >
+
+    <com.example.mytoggleview.view.ToggleView
+        android:id="@+id/toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        niyang:slide_backgaround="@drawable/slide_button"
+        niyang:switch_background="@drawable/switch_background"
+        niyang:switch_state="false" />
+
+</RelativeLayout>
